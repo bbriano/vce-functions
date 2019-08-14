@@ -11,5 +11,4 @@ Functions and programs for TI-nspire CX CAS Calculators
 
 ## Documentation
 
-- [Web reference](https://briano1905.com/vce-functions)
-- [PDF reference](https://briano1905.com/vce-functions/documentation.pdf)
+- [Function reference](https://briano1905.com/vce-functions/reference.pdf)

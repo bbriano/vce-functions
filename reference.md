@@ -15,12 +15,44 @@ $$\to\text{equation: y=}2-x$$
 $$\to\text{midpoint: }(0,2)$$
 $$\to\text{length: }4\sqrt{2}$$
 
-### `stationary(f(x),x)`
+### `stationary(f,var)`
 
-finds the stationary points of any function
+finds the stationary points of a function
 
 $$\text{stationary}(x^4-2x^2,x)$$
 $$\to\begin{bmatrix}x&-1&0&1\\y&-1&0&-1\end{bmatrix}$$
+
+### `stationary_dom(f,var,dom)`
+
+finds the stationary points of any function with a domain restriction
+
+$$\text{stationary\_dom}(\sin(\frac{x+\pi}{2}),x,0\leq{}x\leq2\pi)$$
+$$\to\begin{bmatrix}x&0&2\pi\\y&1&-1\end{bmatrix}$$
+
+### `distance_fn(f,var,x1,y1)`
+
+finds the distance function from a function to a point
+
+$$\text{distance\_fn}(x^2-1,x,2,0)$$
+$$\to\sqrt{x^4-x^2-4x+5}$$
+
+### `projectile(v,d,g)`
+
+finds the cartesian equation of the path of a projectile motion
+
+$$\text{projectile}(5,\frac{\pi}{3},-9.8)$$
+$$\to\sqrt{3}x-\frac{98x^2}{125}$$
+
+## Geometry
+
+### `circle_line(cx,cy,r,l)`
+
+finds the areas of parts of a circle intersected by a line
+
+$$\text{circle\_line}(2,1,3,2x)$$
+$$\to\text{pizza1: }9.96$$
+$$\to\text{pizza2: }18.31$$
+$$\to\text{triangle: }7.2$$
 
 ## Complex numbers
 
@@ -38,17 +70,6 @@ convert rectangular complex number to polar
 $$\text{to\_polar}(5+5\sqrt{3}i)$$
 $$\to10\text{cis}(\frac{\pi}{3})$$
 
-## Geometry
-
-### `circle_line(cx,cy,r,l)`
-
-finds the areas of parts of a circle intersected by a line
-
-$$\text{circle\_line}(2,1,3,2x)$$
-$$\to\text{pizza1: }9.96$$
-$$\to\text{pizza2: }18.31$$
-$$\to\text{triangle: }7.2$$
-
 ## Vectors
 
 ### `mag(v)`
@@ -58,7 +79,7 @@ finds the magnitude of a vector
 $$\text{mag}(\begin{bmatrix}3&4\end{bmatrix})$$
 $$\to5$$
 
-### `ang(v1, v2)`
+### `ang(v1,v2)`
 
 finds the angle between 2 vectors
 
