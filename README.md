@@ -9,6 +9,9 @@ Functions and programs for TI-nspire CX CAS Calculators
 3. Move `vce.tns` to calculator with Computer Link Software
 4. Refresh libraries `doc > 6`
 
-## Documentation
+## How to use
 
-- [Function reference](https://briano1905.com/vce-functions/reference.pdf)
+1. Open a document
+2. Enter `libShortcut("vce","gg")
+3. Now you can access all functions just by typing `gg.`
+4. Read the [Function reference](https://briano1905.com/vce-functions/reference.pdf)

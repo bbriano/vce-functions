@@ -50,9 +50,11 @@ $$\to\sqrt{3}x-\frac{98x^2}{125}$$
 finds the areas of parts of a circle intersected by a line
 
 $$\text{circle\_line}(2,1,3,2x)$$
-$$\to\text{pizza1: }9.96$$
-$$\to\text{pizza2: }18.31$$
-$$\to\text{triangle: }7.2$$
+$$\to\text{sector1: }9.96$$
+$$\to\text{sector2: }18.31$$
+$$\to\text{segment1: }6.36$$
+$$\to\text{segment2: }21.91$$
+$$\to\text{triangle: }3.6$$
 
 ## Complex numbers
 
