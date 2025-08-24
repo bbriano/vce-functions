@@ -14,4 +14,4 @@ Functions and programs for TI-nspire CX CAS Calculators
 1. Open a document
 2. Enter `libShortcut("vce","gg")
 3. Now you can access all functions just by typing `gg.`
-4. Read the [Function reference](https://briano1905.com/vce-functions/reference.pdf)
+4. Read the [Function reference](https://github.com/bbriano/vce-functions/blob/master/reference.pdf)
